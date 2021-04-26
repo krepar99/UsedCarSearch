@@ -168,6 +168,7 @@ with col1:
         car_model = row["model"].capitalize()
         car_price = f"{row['price']:,}"
         st.text(f"{i}. {car_manufacturer} {car_model}({car_year}) ${car_price}")
+        i += 1
 
 # data to be displayed in Right Column
 with col2:
